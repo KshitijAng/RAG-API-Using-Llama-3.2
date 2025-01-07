@@ -6,7 +6,7 @@ The modifications are designed for individuals with computational constraints of
 **Note: This solution works on Windows only, based on personal trial and error.**
 
 ## Original Code
-The original implementation can be found [here](https://lightning.ai/lightning-ai/studios/deploy-a-private-llama-3-2-rag-api?utm_source=akshay).
+The original implementation can be found [here](https://lightning.ai/lightning-ai/studios/deploy-a-private-llama-3-2-rag-api?utm_source=akshay) from [Akshay Pachaar](https://www.linkedin.com/posts/akshay-pachaar_i-created-a-100-private-llama-32-rag-api-activity-7279837399197605889-0NIK/?utm_source=share&utm_medium=member_android).
 
 ## Changes Made
 - Switched to Groq or HuggingFace instead of vLLM.
