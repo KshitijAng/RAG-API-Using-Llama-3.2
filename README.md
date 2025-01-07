@@ -22,7 +22,7 @@ The original implementation can be found [here](https://lightning.ai/lightning-a
 - **Local Implementation:** Made to work on Windows locally instead of Lightning.ai studio.
 
 
-## Possible drawbacks
+## Possible Drawback
 - **Security Concerns:** As the Groq API is used to address computational challenges, security may become a concern, since the data is no longer processed locally.
 
 ## Requirements
