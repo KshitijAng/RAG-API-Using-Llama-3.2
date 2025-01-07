@@ -3,6 +3,8 @@
 This repository contains a modified implementation of a Retrieval-Augmented Generation (RAG) API using the Meta Llama 3.2 model. 
 The modifications are designed for individuals with computational constraints of downloading the model locally or those encountering issues with the vLLM library.
 
+**Note: This solution works on Windows only, based on personal trial and error.**
+
 ## Original Code
 The original implementation can be found [here](https://lightning.ai/lightning-ai/studios/deploy-a-private-llama-3-2-rag-api?utm_source=akshay).
 
@@ -15,7 +17,7 @@ The original implementation can be found [here](https://lightning.ai/lightning-a
   
 ## Advantages of This Approach
 - **Lightweight Implementation:** Optimized to work on machines with limited computational resources.
-- **Compatibility:** Avoids reliance on the vLLM library to reduce dependency overhead.
+- **Flexibility:** With the rise of Open Source AI, users have a wide range of options to choose from in terms of model selection, including offerings from **Mistral**, **Meta**, and **HuggingFace**.
 - **Faster Inference with Groq**: Ensures quicker model predictions and better throughput, making it more ideal for real-time use case.
 - **Local Implementation:** Made to work on Windows locally instead of Lightning.ai studio.
 
@@ -52,7 +54,6 @@ This will create a `client.py` file, which you can then modify by referring to t
 
 ### 4. Test the API
 Once the server is running successfully, open a new terminal in the project directory and test it out:
-
 
 
 ## Overview on Retrieval-Augmented Generation (RAG)
