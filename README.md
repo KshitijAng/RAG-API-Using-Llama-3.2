@@ -15,11 +15,15 @@ The original implementation can be found [here](https://lightning.ai/lightning-a
 - Using ChromaDB instead of Qdrant for Vector Database for ease of setup locally.
 
   
-## Advantages of This Approach
+## Advantages of this Approach
 - **Lightweight Implementation:** Optimized to work on machines with limited computational resources.
 - **Flexibility:** With the rise of Open Source AI, users have a wide range of options to choose from in terms of model selection, including offerings from **Mistral**, **Meta**, and **HuggingFace**.
 - **Faster Inference with Groq**: Ensures quicker model predictions and better throughput, making it more ideal for real-time use case.
 - **Local Implementation:** Made to work on Windows locally instead of Lightning.ai studio.
+
+
+## Possible drawbacks
+- **Security Concerns:** As the Groq API is used to address computational challenges, security may become a concern, since the data is no longer processed locally.
 
 ## Requirements
 To run this API, ensure you have the following installed:
