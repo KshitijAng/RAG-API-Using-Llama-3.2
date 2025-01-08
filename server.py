@@ -10,7 +10,7 @@ class DocumentChatAPI(ls.LitAPI):
         # Use Groq for the LLM model
         self.llm = ChatGroq(
             temperature=0,
-            groq_api_key='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',
+            groq_api_key='GROQ_API_KEY',
             model_name="llama-3.2-3b-preview"
         )
 
