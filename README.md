@@ -58,7 +58,7 @@ This will create a `client.py` file, which you can then modify by referring to t
 
 ### 4. Test the API
 Once the server is running successfully, open a new terminal in the project directory and test it out:
-![Project Logo](test query.png "Project Logo")
+![Project Logo](test.png "Project Logo")
 
 
 ## Overview on Retrieval-Augmented Generation (RAG)
