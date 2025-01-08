@@ -30,6 +30,7 @@ To run this API, ensure you have the following installed:
 
 - Python 3.9 or later
 - Required Python libraries (listed in `requirements.txt`)
+- [Groq](https://console.groq.com/playground) API Key
 
 ## Usage
 
