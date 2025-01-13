@@ -1,6 +1,6 @@
 # RAG API Using Llama 3.2
 
-This repository contains a modified implementation of a Retrieval-Augmented Generation (RAG) API using the Meta Llama 3.2 model. 
+This repository contains a `modified implementation` of a Retrieval-Augmented Generation (RAG) API using the `Meta Llama 3.2 model`. 
 The modifications are designed for individuals with computational constraints of downloading the model locally or those encountering issues with the vLLM library.
 
 **Note: This solution works on Windows only, based on personal trial and error.**
@@ -9,15 +9,15 @@ The modifications are designed for individuals with computational constraints of
 The original implementation can be found [here](https://lightning.ai/lightning-ai/studios/deploy-a-private-llama-3-2-rag-api?utm_source=akshay) from [Akshay Pachaar](https://www.linkedin.com/posts/akshay-pachaar_i-created-a-100-private-llama-32-rag-api-activity-7279837399197605889-0NIK/?utm_source=share&utm_medium=member_android).
 
 ## Changes Made
-- Switched to Groq or HuggingFace instead of vLLM.
-- Used PyPDFLoader (pypdf) to load pdf files from directory instead of ingestion (ingest_pdfs).
-- Changed Embedding Method from fastembed to HuggingFaceEmbeddings.
-- Using ChromaDB instead of Qdrant for Vector Database for ease of setup locally.
+- Switched to `Groq` or `HuggingFace` instead because of the recurring issue of `no resource module found` after installing vLLM library.
+- Used `PyPDFLoader` (pypdf) to load pdf files from directory instead of ingestion (ingest_pdfs).
+- Changed Embedding Method from fastembed to `HuggingFaceEmbeddings` because of prior experience.
+- Using `ChromaDB` instead of Qdrant for Vector Database for ease of setup locally.
 
   
 ## Advantages of this Approach
 - **Lightweight Implementation:** Optimized to work on machines with limited computational resources.
-- **Flexibility:** With the rise of Open Source AI, users have a wide range of options to choose from in terms of model selection, including offerings from **Mistral**, **Meta**, and **HuggingFace**.
+- **Flexibility:** With the rise of Open Source AI, users have a wide range of options to choose from in terms of model selection, including offerings from `Mistral`, `Meta`, and `HuggingFace`.
 - **Faster Inference with Groq**: Ensures quicker model predictions and better throughput, making it more ideal for real-time use case.
 - **Local Implementation:** Made to work on Windows locally instead of Lightning.ai studio.
 
