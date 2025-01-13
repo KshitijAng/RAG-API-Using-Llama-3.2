@@ -67,7 +67,7 @@ Once the server is running successfully, open a new terminal in the project dire
 While traditional LLMs have made significant advancements since the introduction of the transformer architecture, they still face limitations. One key challenge is that they are often too generic and lack domain-specific expertise. For instance, while ChatGPT is incredibly useful, it may not provide the depth of knowledge required for tasks that demand specialized expertise—especially in areas that are highly technical or private in nature. This is where RAG steps in.
 
 Retrieval-Augmented Generation (RAG) is a powerful framework that combines the strengths of both retrieval-based and generative models. By leveraging a retrieval mechanism, RAG can fetch relevant information from external sources, which is then used by the generative model to produce more accurate and contextually rich responses. This hybrid approach enhances the capabilities of language models, particularly in tasks where specific knowledge is required that may not be contained within the model's training data.
-![Project Logo]('assets/RAG_Diagram.png' "Project Logo")
+![Project Logo](assets/RAG_Diagram.png "Project Logo")
 
 
 ## Troubleshooting
